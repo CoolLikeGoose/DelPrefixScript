@@ -1,7 +1,7 @@
 from os import rename, listdir
 
-badprefix = "x" #Какой префикс удалять
-fnames = listdir('.') #путь до папки
+badprefix = "x" #which prefix delete
+fnames = listdir('.') #path
 
 for fname in fnames:
     if fname.startswith(badprefix):
